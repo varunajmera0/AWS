@@ -1,4 +1,4 @@
-## Auto Scaling Kicks in
+## Auto Scaling Kick in
 Amazon DynamoDB global tables_ provide a fully managed solution for deploying a multi-Region, multi-active database, without having to build and maintain your own replication solution.
 > Writing in `Asia Pacific (Mumbai) ap-south-1` region. Default RCUs is 1 & WCUs is 1. :point_down:
 
