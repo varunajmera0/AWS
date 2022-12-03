@@ -14,7 +14,7 @@ I followed simple steps -
 
 ![no data](./assets/nodataachive.png)
 
-2. Go to lambda > Create lambda > Copy & Paste [this code](https://github.com/varunajmera0/AWS/tree/main/DynamoDB/ArchiveTTLLambda/archive_logfile.py) > Adjust the code according to your requirement.
+2. Go to lambda > Create lambda > Copy & Paste [this code](https://github.com/varunajmera0/AWS/tree/main/DynamoDB/ArchiveTTLambda/archive_logfile.py) > Adjust the code according to your requirement.
 
 3. Create role
 
