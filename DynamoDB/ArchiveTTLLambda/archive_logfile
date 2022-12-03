@@ -1,0 +1,32 @@
+import json, boto3
+
+write = boto3.resource("dynamodb")
+write = write.Table("logfile_archive")
+
+def lambda_handler(event, context):
+    for record in event['Records']:
+        if record['eventName'] == "REMOVE":
+            print(record['eventID'])
+            print(record)
+            response = write.put_item(
+                   Item={
+                       "PK": record["dynamodb"]["OldImage"]["PK"]["S"],
+                        "bytessent": record["dynamodb"]["OldImage"]["bytessent"]["N"],
+                        "date": record["dynamodb"]["OldImage"]["date"]["S"],
+                        "GSI_1_PK": record["dynamodb"]["OldImage"]["GSI_1_PK"]["S"],
+                        "host": record["dynamodb"]["OldImage"]["host"]["S"],
+                        "hourofday": record["dynamodb"]["OldImage"]["hourofday"]["N"],
+                        "method": record["dynamodb"]["OldImage"]["method"]["S"],
+                        "requestid": record["dynamodb"]["OldImage"]["requestid"]["N"],
+                        "responsecode": record["dynamodb"]["OldImage"]["responsecode"]["N"],
+                        "timestamp": record["dynamodb"]["OldImage"]["timestamp"]["N"],
+                        "timezone": record["dynamodb"]["OldImage"]["timezone"]["S"],
+                        "url": record["dynamodb"]["OldImage"]["url"]["S"],
+                        "useragent": record["dynamodb"]["OldImage"]["useragent"]["S"]
+                   }
+            )
+            print("response: ", response)
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }

@@ -1,4 +1,4 @@
-import boto3, time
+import boto3, time, faker
 from config import read_boto_args, write_boto_args
 
 
@@ -8,8 +8,9 @@ write = boto3.resource(**write_boto_args)
 read = read.Table("logfile")
 write = write.Table("logfile")
 
+fake = faker.Faker()
+
 write_response = write.put_item(
-    TableName="logfile",
     Item={
         "PK": "request#503",
         "bytessent": 3563,
@@ -20,6 +21,7 @@ write_response = write.put_item(
         "method": "GET",
         "requestid": 330,
         "responsecode": 200,
+        "timestamp": fake.unix_time(),
         "timezone": "GMT-0700",
         "url": "/rss.pl",
         "useragent": "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
@@ -32,7 +34,6 @@ print("write response in {}: ".format(read_boto_args["region_name"]), str(write_
 time.sleep(15)
 
 read_respose = read.get_item(
-        TableName="logfile",
         Key={
             "PK": "request#501",
         },

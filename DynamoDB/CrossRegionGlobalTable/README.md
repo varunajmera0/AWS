@@ -58,6 +58,7 @@ ProvisionedThroughput={ReadCapacityUnits=5,WriteCapacityUnits=5}"
 ```
 
 STEP 2 - LOAD SAMPLE DATA INTO THE TABLE
+Update ACCESS_KEY & SECRET_KEY > run python3 ./InitialDataLoad/load_logfile.py logfile ./InitialDataLoad/logfile.csv
 
 STEP 3 - INSTALL PACKAGE (requirement.txt) & PROVIDE ACCESS_KEY AND SECRET_KEY IN config.py & RUN PYTHON CODE (global_table_dynamo.py)
 

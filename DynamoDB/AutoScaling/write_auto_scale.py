@@ -22,6 +22,7 @@ while True:
             "method": "{}".format(fake.http_method()),
             "requestid": fake.random_int(),
             "responsecode": 200,
+            "timestamp": fake.unix_time(),
             "timezone": "GMT-{}".format(fake.random_int(min=4, max=4)),
             "url": "{}".format(fake.uri_path()),
             "useragent": "{}".format(fake.chrome())
