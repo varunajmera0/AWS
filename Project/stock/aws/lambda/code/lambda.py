@@ -12,7 +12,7 @@ from yfinance import set_tz_cache_location
 set_tz_cache_location('/tmp')
 read = boto3.resource("dynamodb")
 
-read = read.Table("stock_info")
+read = read.Table("stock_porj") # change dynamodb table if your table is different
                          
 lambda_client = boto3.client('lambda')
 GET_RAW_PATH = "/getSymbol"

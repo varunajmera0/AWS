@@ -27,12 +27,15 @@ Fetching Stock Price from Yahoo finance and displaying on chart
 ## Steps
 
 1. [Layer in Lambda](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/AWS_Layer.pdf)
-2. [Lambda](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/AWS_Lambda.pdf)
-3. [API Gateway](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/AWS_Gateway.pdf)
-4. [EC2](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/ec2.pdf)
-5. [Instruction for Kafka on EC2](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/instruction_kafka_ec2.txt)
-6. [Instruction for Python](https://github.com/varunajmera0/AWS/tree/main/Project/stock/backend)
-7. [Instruction for React](https://github.com/varunajmera0/AWS/tree/main/Project/stock/frontend)
+2. [Layer Dependencies](https://github.com/varunajmera0/AWS/tree/main/Project/stock/aws/lambda/code/layers)
+3. [Lambda](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/AWS_Lambda.pdf)
+4. [Lambda Code](https://github.com/varunajmera0/AWS/tree/main/Project/stock/aws/lambda/code/lambda)
+5. [DynamoDB](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/dynamodb.pdf)
+6. [API Gateway](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/AWS_Gateway.pdf)
+7. [EC2](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/ec2.pdf)
+8. [Instruction for Kafka on EC2](https://github.com/varunajmera0/AWS/tree/main/Project/stock/doc/instruction_kafka_ec2.txt)
+9. [Instruction for Python](https://github.com/varunajmera0/AWS/tree/main/Project/stock/backend)
+10. [Instruction for React](https://github.com/varunajmera0/AWS/tree/main/Project/stock/frontend)
 
 ## Room For Improvement
 
