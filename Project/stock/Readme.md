@@ -1,6 +1,6 @@
 # 🚀 Stock Project
 
-Fetching Stock Price from Yahoo finance and display on chart
+Fetching Stock Price from Yahoo finance and displaying on chart
 
 ## Tech Stack
 
