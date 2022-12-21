@@ -11,6 +11,8 @@ Fetching Stock Price from Yahoo finance and display on chart
   - Lambda
   - S3
   - DynamoDB
+  - EC2
+- Kafka
 
 ## Architecture
 
@@ -32,10 +34,20 @@ Fetching Stock Price from Yahoo finance and display on chart
 6. [Instruction for Python](https://github.com/varunajmera0/AWS/tree/main/Project/stock/backend)
 7. [Instruction for React](https://github.com/varunajmera0/AWS/tree/main/Project/stock/frontend)
 
+## Room For Improvement
+
+> Create the server and run backend on AWS
+
+> Proper handling the thread part in backend code
+
+> Work on security group of ec2 and traffic inbound rule
+
+> CI/CD Pipeline
+
 ## Contributing
 
 Thank you for your interest in contributing to Stock Project! ❤️
 
-Pull and Raise request
+> Pull and Raise the request
 
 > Happy Coding! :v:
