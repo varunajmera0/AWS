@@ -1,0 +1,6 @@
+yfinance
+boto3
+Flask
+awswrangler
+kafka
+Flask-Cors
