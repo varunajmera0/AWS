@@ -41,7 +41,7 @@ Fetching Stock Price from Yahoo finance and displaying on chart
 
 > Create the server and run backend on AWS
 
-> Proper handling the thread part in backend code
+> Proper handling the thread part in backend code or use process instead of thread
 
 > Work on security group of ec2 and traffic inbound rule
 
