@@ -61,19 +61,19 @@ It is applied on the subnet level/block level of society. It will apply only to 
 
 1. [Create VPC & Subnet(Public & Private)](<https://github.com/varunajmera0/AWS/tree/main/vpc/doc/AWS_VPC_Subnet(Public&Private).pdf>)
 
-2. [Route Table (Public & Private)](<https://github.com/varunajmera0/AWS/tree/main/vpc/doc/VPC_route_table(public&privatesubnets).pdf>)
+2. [Route Table (Public & Private)](<https://github.com/varunajmera0/AWS/tree/main/VPC/doc/VPC_route_table(public&privatesubnets).pdf>)
 
-3. [IGW](https://github.com/varunajmera0/AWS/tree/main/vpc/doc/public_ipv4&internet_gateway_vpc.pdf)
+3. [IGW](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/public_ipv4&internet_gateway_vpc.pdf)
 
-4. [SG](https://github.com/varunajmera0/AWS/tree/main/vpc/doc/vpc_security_group.pdf)
+4. [SG](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/vpc_security_group.pdf)
 
-5. [EC2](https://github.com/varunajmera0/AWS/tree/main/vpc/doc/ec2_public_private.pdf)
+5. [EC2](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/ec2_public_private.pdf)
 
-6. [EC2 Login](https://github.com/varunajmera0/AWS/tree/main/vpc/doc/login_connect_public_priavte&ping_ec2.pdf)
+6. [EC2 Login](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/login_connect_public_priavte&ping_ec2.pdf)
 
-7. [Reference](https://github.com/varunajmera0/AWS/tree/main/vpc/doc/vpc_security_group.pdf)
+7. [Reference](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/vpc_security_group.pdf)
 
 Credits -
-https://www.udemy.com/course/networking-in-aws/ - [Reference](https://github.com/varunajmera0/AWS/tree/main/vpc/doc/vpc_security_group.pdf)
+https://www.udemy.com/course/networking-in-aws/ - [Reference](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/vpc_security_group.pdf)
 
 > Happy Coding! :v:
