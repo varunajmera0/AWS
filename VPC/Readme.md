@@ -73,7 +73,7 @@ It is applied on the subnet level/block level of society. It will apply only to 
 
 7. [Reference](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/vpc_security_group.pdf)
 
-Credits -
+Credit -
 https://www.udemy.com/course/networking-in-aws/ - [Reference](https://github.com/varunajmera0/AWS/tree/main/VPC/doc/vpc_security_group.pdf)
 
 > Happy Coding! :v:
