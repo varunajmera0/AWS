@@ -16,7 +16,11 @@ Fetching Stock Price from Yahoo finance and displaying on chart
 
 ## Architecture
 
-![Architecture!](/Project/stock/doc/architecture.png "Architecture for stock project")
+![Architecture!](/Project/stock/doc/architecture@1x.png "Architecture for stock project")
+
+## Working
+
+Frist Activity 1 Then Activity 2
 
 ## Final Output
 
